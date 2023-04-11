@@ -1,0 +1,27 @@
+/* pages/home/home.wxss */
+
+page > view {
+  margin-bottom: 30px;
+}
+
+.scroll-view {
+  background-color: chartreuse;
+}
+
+.swiper-container {
+  height: 150px;
+}
+.item {
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+}
+swiper-item:nth-child(1) .item{
+  background-color: aquamarine;
+}
+swiper-item:nth-child(2) .item{
+  background-color:cadetblue
+}
+swiper-item:nth-child(3) .item{
+  background-color: rgb(55, 99, 26);
+}

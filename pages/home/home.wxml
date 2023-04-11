@@ -1,0 +1,51 @@
+<!-- 轮播图 -->
+<view>
+  <swiper class="swiper-container" indicator-dots autoplay>
+    <swiper-item>
+      <view class="item">
+        div1
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item">
+        div2
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item">
+        div3
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 类似于 div -->
+<view>
+  view 类似于PC端的 html
+</view>
+
+<!-- 纯文本 -->
+<view class="text">
+  <text selectable>text 长按复制文本</text>
+</view>
+
+<!-- 将html渲染为 UI 结构 -->
+<view>
+  <rich-text nodes="<h1 style='color:red'>rich-text 渲染hmlt</h1>" />
+</view>
+
+<!-- 定义滚动 -->
+<view class="scroll-view">
+  <scroll-view>
+    <view>
+      scroll-view
+    </view>
+  </scroll-view>
+</view>
+
+
+<!-- buttons -->
+<view>
+  <button size="mini" type="primary">页面次要操作 Normal</button>
+  <button size="mini" type="warn" >页面次要操作 Disabled</button>
+</view>
